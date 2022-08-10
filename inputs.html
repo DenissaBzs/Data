@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <h1>Inputs testing</h1>
+  <meta charset="utf-8">
+  <title>
+    Inputs
+  </title>
+</head>
+
+<body>
+  <form class="form-example" action="inputs.html" method="get">
+    <div class="form-example1">
+      <label for="name">Enter your name:</label>
+      <input type="text" name="name" id="name" required>
+    </div>
+    <div class="form example2">
+      <label for="email">Enter your email:</label>
+      <input type="email" name="email id" id="email" required>
+    </div>
+    <div class="form example4">
+      <label for="password">Password:</label>
+      <input type="password" name="password" id="password" required>
+    </div>
+    <div class="form-example3">
+      <input type="submit" value="Subscribe!">
+    </div>
+  </form>
+  <label for="start">Date:</label>
+  <input type="date" name="trip-start" id="start" value="2022-07-26" min="1995-01-01" max="2025-01-01">
+  <br>
+  <input class="favorite styled" type="button" value="Add to favorites">
+  <br>
+  <label for="ice-cream-choice">Choose a flavour:</label>
+  <input list="ice-cream-flavours" id="ice-cream-choice" name="ice-cream-choice" />
+  <datalist id="ice-cream-flavours">
+    <option value="Chocolate">
+    <option value="Coconut">
+    <option value="Mint">
+    <option value="Strawberry">
+    <option value="Vanilla">
+  </datalist>
+  <br>
+  <label for="fuel">Fuel level:</label>
+
+  <meter id="fuel" min="0" max="100" value="50">
+    at 50/100
+  </meter>
+  <br />
+  <fieldset>
+    <legend>Choose your favoursite monster:</legend>
+    <input type="radio" name="monster" id="Kraken">
+    <label for="Kraken">Kraken</label><br>
+    <input type="radio" name="monster" id="Sasquach">
+    <label for="sasquach">Sasquach</label><br>
+    <input type="radio" name="monster" id="Mothman">
+    <label for="Mothman">Mothman</label><br>
+  </fieldset>
+  <hr>
+  <p>
+  <h3>Please give us some personal information:</h3>
+
+  <form class="" action="mailto:balazs.denissa95@gmail.com" method="post">
+    <label>Your Name:</label>
+    <input type="text" name="" value=""><br>
+    <label>Your Email:</label>
+    <input type="email" name="" value=""><br>
+    <label>Security question:</label>
+    <input list="security question" name="" value="">
+    <datalist id="security question">
+      <option value="What is your mother's name?">
+      <option value="What was your first pet's name?">
+      <option value="Who's your favourite singer?">
+        
+    </datalist><br>
+
+  <label>Your answer:</label>
+  <input type="password" name="password" value=""><br>
+  <label>Password:</label>
+  <input type="password" name="password" value=""><br>
+  <label>Your opinion is important for us:</label><br>
+  <textarea name="Your opinion is important for us:" rows="10" cols="40"></textarea><br>
+  <button class="favorite styled"
+        type="button">
+    Submit!
+</button>
+
+
+
+
+
+</form>
+</body>
+</html>
